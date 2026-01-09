@@ -247,3 +247,23 @@ body {
         justify-content: center;
     }
 }
+/* ===== FORCE PROFILE IMAGE VISIBILITY ===== */
+.hero {
+    position: relative;
+}
+
+.hero-image {
+    position: absolute;
+    right: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.hero-image img {
+    width: 200px !important;
+    height: 200px !important;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #a855f7;
+}
